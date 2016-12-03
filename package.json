@@ -1,0 +1,32 @@
+{
+  "name": "shot-by-shot",
+  "version": "1.0.0",
+  "description": "Visualize content of films/clips",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c && gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trainorpj/shot-by-shot.git"
+  },
+  "author": "PJ Trainor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trainorpj/shot-by-shot/issues"
+  },
+  "homepage": "https://github.com/trainorpj/shot-by-shot#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-jade": "^1.1.0",
+    "gulp-rollup": "^2.5.1",
+    "jade": "^1.11.0",
+    "rollup": "^0.36.4",
+    "rollup-plugin-node-resolve": "^2.0.0"
+  }
+}
